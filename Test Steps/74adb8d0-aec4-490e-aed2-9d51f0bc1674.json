@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /web/index.php/auth/login",
+        "step 2: Log in to the HR portal using credentials",
+        "step 3: Click on button MyTimesheet -> Navigate to page '/web/index.php/time/viewMyTimesheet'",
+        "step 4: Click on button Edit -> Navigate to page '/web/index.php/time/editTimesheet/*'",
+        "step 5: Click on input TimesheetEntry",
+        "step 6: Enter input value in input TimesheetEntry2",
+        "step 7: Click on table ProjectActivity",
+        "step 8: Click on button Save -> Navigate to page '/web/index.php/time/viewMyTimesheet'",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

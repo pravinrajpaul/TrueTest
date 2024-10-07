@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /web/index.php/auth/login",
+        "step 2: Click on div LoginCredentials",
+        "step 3: Log in to the HR portal using credentials",
+        "step 4: Add a new employee in the HR portal",
+        "step 5: Click on link EmployeeList -> Navigate to page '/web/index.php/pim/viewEmployeeList'",
+        "step 6: Click on input HintSearch",
+        "step 7: Enter input value in input HintSearch",
+        "step 8: Click on button Search",
+        "step 9: Click on button Action",
+        "step 10: Click on button YesDelete -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

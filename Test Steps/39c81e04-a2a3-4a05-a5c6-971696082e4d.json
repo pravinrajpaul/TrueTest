@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to /web/index.php/auth/login",
+        "step 2: Click on div LoginCredentials",
+        "step 3: Click on div LoginCredentials",
+        "step 4: Click on div LoginCredentials",
+        "step 5: Log in to the HR portal using credentials",
+        "step 6: Click on link Directory -> Navigate to page '/web/index.php/directory/viewDirectory'",
+        "step 7: Click on input HintSearch",
+        "step 8: Enter input value in input HintSearch",
+        "step 9: Click on button Search",
+        "step 10: Click on div DirectorySheet",
+        "step 11: Click on i DirectoryIcon",
+        "step 12: Click on link PIM -> Navigate to page '/web/index.php/pim/viewEmployeeList'",
+        "step 13: Click on input HintSearch",
+        "step 14: Enter input value in input HintSearch",
+        "step 15: Click on button Search",
+        "step 16: Click on button Action",
+        "step 17: Click on button YesDelete -> Navigate to page ''",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}

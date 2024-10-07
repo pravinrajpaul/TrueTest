@@ -1,0 +1,102 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Add and Delete Employee in HR Portal,"Login to the HR portal, add a new employee, search for the employee, and delete the employee from the list.","Step 1: Navigate to /web/index.php/auth/login
+Step 2: Click on div LoginCredentials
+Step 3: Log in to the HR portal using credentials
+	- Step 1: Enter input value in input Username
+	- Step 2: Click on input Password
+	- Step 3: Click on div LoginCredentials
+	- Step 4: Enter input value in input Password
+	- Step 5: Click on button Login
+Step 4: Add a new employee in the HR portal
+	- Step 1: Click on link PIM -> Navigate to page '/web/index.php/pim/viewEmployeeList'
+	- Step 2: Click on link AddEmployee -> Navigate to page '/web/index.php/pim/addEmployee'
+	- Step 3: Click on input FirstName
+	- Step 4: Enter input value in input FirstName
+	- Step 5: Click on input MiddleName
+	- Step 6: Enter input value in input MiddleName
+	- Step 7: Click on input LastName
+	- Step 8: Enter input value in input LastName
+	- Step 9: Click on button Save
+Step 5: Click on link EmployeeList -> Navigate to page '/web/index.php/pim/viewEmployeeList'
+Step 6: Click on input HintSearch
+Step 7: Enter input value in input HintSearch
+Step 8: Click on button Search
+Step 9: Click on button Action
+Step 10: Click on button YesDelete -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+5,Logout from HR Portal,"Login to the HR portal and successfully logout, ensuring redirection to the login page.","Step 1: Navigate to /web/index.php/auth/login
+Step 2: Click on div LoginCredentials
+Step 3: Log in to the HR portal using credentials
+	- Step 1: Enter input value in input Username
+	- Step 2: Click on input Password
+	- Step 3: Click on div LoginCredentials
+	- Step 4: Enter input value in input Password
+	- Step 5: Click on button Login
+Step 4: Click on i UserIcon
+Step 5: Click on link Logout -> Navigate to page '/web/index.php/auth/login'
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+2,Add Employee and Search in Directory,"Login to the HR portal, add a new employee, and search for the employee in the directory.","Step 1: Navigate to /web/index.php/auth/login
+Step 2: Click on div LoginCredentials
+Step 3: Log in to the HR portal using credentials
+	- Step 1: Enter input value in input Username
+	- Step 2: Click on input Password
+	- Step 3: Click on div LoginCredentials
+	- Step 4: Enter input value in input Password
+	- Step 5: Click on button Login
+Step 4: Add a new employee in the HR portal
+	- Step 1: Click on link PIM -> Navigate to page '/web/index.php/pim/viewEmployeeList'
+	- Step 2: Click on link AddEmployee -> Navigate to page '/web/index.php/pim/addEmployee'
+	- Step 3: Click on input FirstName
+	- Step 4: Enter input value in input FirstName
+	- Step 5: Click on input MiddleName
+	- Step 6: Enter input value in input MiddleName
+	- Step 7: Click on input LastName
+	- Step 8: Enter input value in input LastName
+	- Step 9: Click on button Save
+Step 5: Click on link Directory -> Navigate to page '/web/index.php/directory/viewDirectory'
+Step 6: Click on input HintSearch
+Step 7: Enter input value in input HintSearch
+Step 8: Click on button Search -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Medium,NEW
+3,Edit Timesheet Entry in HR Portal,"Login to the HR portal, navigate to my timesheet, edit an entry, and save the changes.","Step 1: Navigate to /web/index.php/auth/login
+Step 2: Log in to the HR portal using credentials
+	- Step 1: Enter input value in input Username
+	- Step 2: Click on input Password
+	- Step 3: Click on div LoginCredentials
+	- Step 4: Enter input value in input Password
+	- Step 5: Click on button Login
+Step 3: Click on button MyTimesheet -> Navigate to page '/web/index.php/time/viewMyTimesheet'
+Step 4: Click on button Edit -> Navigate to page '/web/index.php/time/editTimesheet/*'
+Step 5: Click on input TimesheetEntry
+Step 6: Enter input value in input TimesheetEntry2
+Step 7: Click on table ProjectActivity
+Step 8: Click on button Save -> Navigate to page '/web/index.php/time/viewMyTimesheet'
+Step 9: Take full page screenshot as checkpoint
+",Low,NEW
+4,Delete Employee from Directory in HR Portal,"Login to the HR portal, search for an employee in the directory, and delete the employee from the list.","Step 1: Navigate to /web/index.php/auth/login
+Step 2: Click on div LoginCredentials
+Step 3: Click on div LoginCredentials
+Step 4: Click on div LoginCredentials
+Step 5: Log in to the HR portal using credentials
+	- Step 1: Enter input value in input Username
+	- Step 2: Click on input Password
+	- Step 3: Click on div LoginCredentials
+	- Step 4: Enter input value in input Password
+	- Step 5: Click on button Login
+Step 6: Click on link Directory -> Navigate to page '/web/index.php/directory/viewDirectory'
+Step 7: Click on input HintSearch
+Step 8: Enter input value in input HintSearch
+Step 9: Click on button Search
+Step 10: Click on div DirectorySheet
+Step 11: Click on i DirectoryIcon
+Step 12: Click on link PIM -> Navigate to page '/web/index.php/pim/viewEmployeeList'
+Step 13: Click on input HintSearch
+Step 14: Enter input value in input HintSearch
+Step 15: Click on button Search
+Step 16: Click on button Action
+Step 17: Click on button YesDelete -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Trivial,NEW
